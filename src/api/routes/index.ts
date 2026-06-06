@@ -70,7 +70,7 @@ const resourceTree: ResourceTree = {
 export function GET(_ctx: Context): Response {
   return Response.json(
     {
-      name: 'IDX Local API',
+      name: 'ritelcommunity.id IDX API',
       version: '0.1.0',
       docs: 'Pagination: limit (default 50, max 500), offset. Add ?total=1 for total count.',
       resources: resourceTree
